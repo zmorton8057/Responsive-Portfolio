@@ -1,5 +1,4 @@
-
-body{
+body {
     font-family: 'Roboto', sans-serif;
     max-width: 100%;
     position: absolute;
@@ -12,7 +11,8 @@ body{
     background-image: url("../images/topography.png");
     font-size: 15px;
 }
-.full{
+
+.full {
     max-width: 960px;
     border: 5px solid #dddddd;
     position: relative;
@@ -20,6 +20,7 @@ body{
     min-height: calc(100vh - 70px);
     background-color: #FFFFFF;
 }
+
 h2 {
     text-decoration: none;
     margin: 0 auto;
@@ -29,31 +30,33 @@ h3 {
     text-decoration: none;
     margin: 0 auto;
 }
+
 /*About Section*/
-.about{
+.about {
     margin-top: 5%;
     margin-left: 5%;
-    margin-right: 5%; 
+    margin-right: 5%;
 }
 
-.about-text{
+.about-text {
     width: 100%;
     justify-items: center;
 }
 
-.about-pic{
+.about-pic {
     margin-left: 10px;
     margin-bottom: 10px;
-    border:solid 2px #cccccc;
+    border: solid 2px #cccccc;
     float: right;
 }
-.space{
+
+.space {
     line-height: 30px;
     height: 40px;
     display: flex;
 }
 
-.links{
+.links {
     margin: 0;
     border: 0;
     padding: 0;
@@ -61,7 +64,8 @@ h3 {
     display: inline-block;
     background-color: white;
 }
-.img-podcast{
+
+.img-podcast {
     height: 150px;
     width: 150px;
     float: left;
@@ -69,8 +73,9 @@ h3 {
     margin-bottom: 10px;
     border: solid 2px #cccccc;
 }
+
 /*Contact Me*/
-.contact-me{
+.contact-me {
     max-width: 960px;
     margin-top: 100px;
     margin-left: 15%;
@@ -78,10 +83,10 @@ h3 {
     background-color: #FFFFFF;
 }
 
-.contact-header{
+.contact-header {
     padding: 10px;
     margin-left: 50px;
-    color: #4AAAA5; 
+    color: #4AAAA5;
 }
 
 .form-contact {
@@ -108,6 +113,7 @@ h3 {
     font-size: 14px;
     font-family: 'Roboto';
 }
+
 .inquiry-section {
     width: 540px;
     height: 200px;
@@ -115,13 +121,14 @@ h3 {
     font-family: 'Roboto';
 }
 
-.submit-button{
+.submit-button {
     font-family: 'Roboto';
     padding: 10px;
     background-color: #4AAAA5;
     color: #FFFFFF;
 }
-.submit-button:hover{
+
+.submit-button:hover {
     font-family: 'Roboto';
     padding: 10px;
     background-color: #FFFFFF;
@@ -129,7 +136,7 @@ h3 {
 }
 
 /*Portfolio*/
-figure{
+figure {
     text-decoration: none;
     margin: 0px;
     display: relative;
@@ -142,14 +149,14 @@ figure{
     padding: 0px;
     border: none;
     position: relative;
-    
+
 }
 
-.caption{
+.caption {
     background-color: #4AAAA5;
     width: 400px;
     padding-top: 10px;
-    padding-bottom:10px;
+    padding-bottom: 10px;
     margin-left: 15px;
     margin-top: 0px;
     color: #FFFFFF;
@@ -157,11 +164,12 @@ figure{
     bottom: 8px;
     z-index: 1;
 }
-.captionB{
+
+.captionB {
     background-color: #4AAAA5;
     width: 400px;
     padding-top: 10px;
-    padding-bottom:10px;
+    padding-bottom: 10px;
     margin-left: 15px;
     margin-top: 0px;
     color: #FFFFFF;
@@ -169,11 +177,12 @@ figure{
     bottom: 524px;
     z-index: 1;
 }
-.captionC{
+
+.captionC {
     background-color: #4AAAA5;
     width: 400px;
     padding-top: 10px;
-    padding-bottom:10px;
+    padding-bottom: 10px;
     margin-left: 15px;
     margin-top: 0px;
     color: #FFFFFF;
@@ -181,22 +190,25 @@ figure{
     bottom: 1048px;
     z-index: 1;
 }
-.block1{
+
+.block1 {
     text-align: center;
     display: flex;
-}
-.block2{
-    text-align: center;
-    display: flex;
-}
-.block3{
-    text-align: center;
-    display: flex; 
 }
 
-.test-image{
-    margin-left:15px;
-    margin-right:15px;
+.block2 {
+    text-align: center;
+    display: flex;
+}
+
+.block3 {
+    text-align: center;
+    display: flex;
+}
+
+.test-image {
+    margin-left: 15px;
+    margin-right: 15px;
     margin-top: 15px;
     margin-bottom: 0px;
 }
@@ -210,6 +222,7 @@ a {
     background-color: white;
     padding: 20px;
 }
+
 a:hover {
     color: black;
     display: block;
@@ -226,48 +239,51 @@ a:hover {
     padding-left: 20px;
     background-color: #FFF;
 }
-.menu-header{
+
+.menu-header {
     position: absolute;
     top: 0;
     margin-top: 74px;
     background-color: #4AAAA5;
     width: 200px;
     text-align: center;
-    color:white;
+    color: white;
     padding: 12px;
     border-radius: 5px;
     border: solid;
     border-color: #cccccc;
 }
-.menu-bar{
+
+.menu-bar {
     list-style: none;
     padding: 20px;
     float: right;
     right: 0;
-    
+
 }
+
 .menu-bar li {
     display: inline-block;
 }
 
-.nav {    
+.nav {
     font-size: 16px;
     border: solid;
     border-color: #cccccc;
     margin-top: 40px;
-    border-top-left-radius:5px;
-    border-top-right-radius:5px;
-    background-color:white;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: white;
     display: block;
 }
 
-.nav:hover{
+.nav:hover {
     background-color: grey;
     color: black;
 }
 
 /*Footer*/
-.footer{
+.footer {
     border-top: 10px solid #FFFFFF;
     text-align: center;
     border-color: #4AAAA5;
@@ -279,3 +295,74 @@ a:hover {
     padding: 30px;
     z-index: 2;
 }
+
+@media only screen and (max-width: 980px) {
+    body {
+        position: fixed;
+        right: 250px;
+        height: 700px;
+    }
+    p{
+        max-width: 90vw;
+    }
+    .full{
+        max-width: 90vw;
+        height: 700px;
+        min-height: 700px;
+        background-color: none;
+        border: none;
+    }
+    .header{
+        max-width: 690px;
+    }
+    .contact-me{
+        max-width: 700px; 
+        margin: 0;
+        height: 500px;
+        margin-top: 20px;
+    }
+    .footer {
+        position: fixed;
+        width: 100vw;
+        bottom: 0;
+    }
+    .space{
+        height: 0;
+        margin: 0;
+        padding: 0;
+    } 
+    img {
+        width: 280px;
+    }
+    .captionA {
+        width: 280px;
+        bottom: 170px;
+    }
+    .captionB {
+        width: 280px;
+        bottom: -200px;
+    }
+    .caption {
+        width: 280px;
+        bottom: -570px;
+    }
+    .captionC{
+        width: 280px;
+        bottom: 180px;
+    }
+    .about{
+        background-color: #FFFFFF;
+        border: 5px solid #777777;
+        padding-right: 30px;
+    }
+    .block{
+        background-color: #FFFFFF;
+    }
+    .block3{
+        background-color: #FFFFFF;
+    }
+
+    @media only screen and (max-width: 768px) {}
+
+
+    @media only screen and (max-width: 640px) {}

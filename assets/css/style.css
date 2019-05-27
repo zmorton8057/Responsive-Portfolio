@@ -314,6 +314,7 @@ a:hover {
     }
     .header{
         max-width: 690px;
+        position: static;
     }
     .contact-me{
         max-width: 700px; 
@@ -362,7 +363,112 @@ a:hover {
         background-color: #FFFFFF;
     }
 
-    @media only screen and (max-width: 768px) {}
+    @media only screen and (max-width: 768px) {
+        body {
+            position: fixed;
+            right: 250px;
+            height: 700px;
+        }
+        a{
+            padding: 10px;
+        }
+        .nav{
+            font-size: 12px;
+        }
+        p{
+            max-width: 90vw;
+        }
+        .full{
+            max-width: 90vw;
+            height: 700px;
+            min-height: 700px;
+            background-color: none;
+            border: none;
+            left: 20%;
+        }
+        .header{
+            max-width: 488px;
+            position: static;
+            border: 5px solid #777777;
+            height: 114px;
+        }
+        .menu-header{
+            margin-top: 52px;
+        }
+        .contact-me{
+            max-width: 700px; 
+            margin: 0;
+            background-color: none !important; 
+            margin-top: 0px;
+            padding-bottom: 50px;
+            border: 5px solid #777777;
+        }
+        .footer {
+            position: fixed;
+            width: 100vw;
+            bottom: 0;
+        }
+        .space{
+            height: 0;
+            margin: 0;
+            padding: 0;
+        } 
+        img {
+            width: 200px;
+            
+        }
+        .captionA {
+            width: 200px;
+            bottom: 170px;
+        }
+        .captionB {
+            width: 200px;
+            bottom: -270px;
+        }
+        .caption {
+            width: 200px;
+            bottom: 10px;
+        }
+        .captionC{
+            width: 200px;
+            bottom: 300px;
+        }
+        .about{
+            background-color: #FFFFFF;
+            border: 5px solid #777777;
+            padding-right: 30px;
+            
+            margin: 0px;
+            padding: 30px;
+            width: 449px;
+        }
+        .block{
+            background-color: #FFFFFF;
+        }
+        .block3{
+            background-color: #FFFFFF;
+        }
+        .form-contact{
+            width: 400px;
+            padding: 60px;
+            max-height: 500px;
+        }
+        fieldset{
+            max-width: 400px;
+        }
+        .first-name {
+            max-width: 400px;
+        }
+        .last-name {
+            max-width: 400px;
+        }
+        .email {
+            max-width: 400px;
+        }
+        .inquiry-section {
+            max-width: 400px;
+        }
+    }
 
 
     @media only screen and (max-width: 640px) {}

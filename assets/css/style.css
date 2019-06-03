@@ -10,9 +10,6 @@ body {
     color: #777777;
     background-image: url("../images/topography.png");
     font-size: 15px;
-    overflow: scroll;
-    overflow-y:auto;
-    overflow-x: hidden;
 }
 
 .full {
@@ -20,9 +17,8 @@ body {
     border: 5px solid #dddddd;
     position: relative;
     left: 20%;
-    min-height: calc(100vh - 70px);
+    min-height: 100%;
     background-color: #FFFFFF;
-    height: 100%;
 }
 
 h2 {
@@ -36,20 +32,22 @@ h3 {
 }
 
 /*About Section*/
-
+.about {
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
 
 .about-text {
-    width: 95%;
+    width: 100%;
     justify-items: center;
-    padding-left: 20px;
-    padding-right: 100px;
 }
 
 .about-pic {
     margin-left: 10px;
     margin-bottom: 10px;
     border: solid 2px #cccccc;
-    position: relative;
+    float: right;
 }
 
 .space {
@@ -70,7 +68,7 @@ h3 {
 .img-podcast {
     height: 150px;
     width: 150px;
-    float: right;
+    float: left;
     margin-right: 10px;
     margin-bottom: 10px;
     border: solid 2px #cccccc;
@@ -80,7 +78,8 @@ h3 {
 .contact-me {
     max-width: 960px;
     margin-top: 100px;
-    
+    margin-left: 15%;
+    margin-right: 15%;
     background-color: #FFFFFF;
 }
 
@@ -195,19 +194,16 @@ figure {
 .block1 {
     text-align: center;
     display: flex;
-    margin-left: 40px;
 }
 
 .block2 {
     text-align: center;
     display: flex;
-    margin-left: 40px;
 }
 
 .block3 {
     text-align: center;
     display: flex;
-    margin-left: 40px;
 }
 
 .test-image {
@@ -298,35 +294,28 @@ a:hover {
     float: center;
     padding: 30px;
     z-index: 2;
-    width: 100%;
-    position: absolute;
-    bottom: 0px;
 }
 
 @media only screen and (max-width: 980px) {
     body {
-        position: initial;
+        
         right: 250px;
-        height: 100%;
-        overflow-y:auto;
+        height: 700px;
     }
     p{
         max-width: 90vw;
-    }
-    fieldset{
-        background-color: #FFFFFF;
-        height: 476px;
     }
     .full{
         max-width: 90vw;
         height: 700px;
         min-height: 700px;
-        background-color: #FFFFFF;
-        border: none;
+        background-color: none;
+        border: 5px solid #cccccc;
     }
     .header{
-        max-width: 690px;
+        max-width: 680px;
         position: static;
+        border-bottom: 5px solid #cccccc;
     }
     .contact-me{
         max-width: 700px; 
@@ -335,12 +324,9 @@ a:hover {
         margin-top: 20px;
     }
     .footer {
-        position: sticky;
+        margin-top: 600px;
         width: 100vw;
-        
-    
-    position: absolute;
-    bottom: 0px;
+        bottom: 0;
     }
     .space{
         height: 0;
@@ -367,10 +353,9 @@ a:hover {
         bottom: 180px;
     }
     .about{
-        background-color: #FFFFFF;
-        border: 5px solid #777777;
+        
         padding-right: 30px;
-        width: 669px;
+        height: 100%;
     }
     .block{
         background-color: #FFFFFF;
@@ -381,9 +366,9 @@ a:hover {
 
     @media only screen and (max-width: 768px) {
         body {
-            position: initial;
+            
             right: 250px;
-            height: 100%;
+            height: 700px;
         }
         a{
             padding: 10px;
@@ -401,6 +386,7 @@ a:hover {
             background-color: none;
             border: none;
             left: 20%;
+            border: 5px solid #777777;
         }
         .header{
             max-width: 488px;
@@ -420,9 +406,9 @@ a:hover {
             border: 5px solid #777777;
         }
         .footer {
-            position: static;
+            margin-top: 500px;
             width: 100vw;
-            bottom: 0px;
+            bottom: 0;
         }
         .space{
             height: 0;
@@ -450,10 +436,8 @@ a:hover {
             bottom: 300px;
         }
         .about{
-            background-color: #FFFFFF;
             border: 5px solid #777777;
             padding-right: 30px;
-            
             margin: 0px;
             padding: 30px;
             width: 449px;
@@ -488,15 +472,121 @@ a:hover {
 
 
     @media only screen and (max-width: 640px) {
-        body{
-            overflow: scroll;
-            height: 100%;
+        body {
+            
+            right: 250px;
+            height: 700px;
         }
-       
+        a{
+            padding: 10px;
+        }
+        .nav{
+            font-size: 12px;
+        }
+        p{
+            max-width: 90vw;
+        }
+        .full{
+            max-width: 90vw;
+            height: 700px;
+            min-height: 700px;
+            background-color: #77777700;
+            border: none;
+            left: 20%;
             
         }
-        .full {
-            width: 519px;
+        .header{
+            max-width: 488px;
+            position: static;
+            border: 5px solid #cccccc;
+            height: 114px;
         }
-        
+        .menu-header{
+            margin-top: 52px;
+        }
+        .contact-me{
+            max-width: 700px; 
+            margin: 0;
+            background-color: none !important; 
+            margin-top: 0px;
+            padding-bottom: 50px;
+            border: 5px solid #cccccc;
+        }
+        .footer {
+            margin-top: 500px;
+            width: 100vw;
+            bottom: 0;
+        }
+        .space{
+            height: 0;
+            margin: 0;
+            padding: 0;
+        } 
+        img {
+            width: 200px;
+            
+        }
+        .captionA {
+            width: 200px;
+            bottom: 170px;
+        }
+        .captionB {
+            width: 200px;
+            bottom: -270px;
+        }
+        .caption {
+            width: 200px;
+            bottom: 10px;
+        }
+        .captionC{
+            width: 200px;
+            bottom: 300px;
+        }
+        .about{
+            border: 5px solid #cccccc;
+            padding-right: 30px;
+            margin: 0px;
+            padding: 30px;
+            width: 449px;
+            height: 800px;
+            background-color: #FFFFFF;
+        }
+        .contact-box{
+                border: 5px solid #cccccc;
+                padding-right: 30px;
+                margin: 0px;
+                padding: 30px;
+                width: 449px;
+                height: 800px;
+                background-color: #FFFFFF;
+                z-index: 1
+            }
+        }
+        .block{
+            background-color: #FFFFFF;
+        }
+        .block3{
+            background-color: #FFFFFF;
+        }
+        .form-contact{
+            width: 400px;
+            padding: 60px;
+            max-height: 500px;
+        }
+        fieldset{
+            max-width: 400px;
+        }
+        .first-name {
+            max-width: 340px;
+        }
+        .last-name {
+            max-width: 340px;
+        }
+        .email {
+            max-width: 340px;
+        }
+        .inquiry-section {
+            max-width: 340px;
+        }
     }
+    
